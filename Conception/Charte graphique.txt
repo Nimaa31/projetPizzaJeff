@@ -1,0 +1,11 @@
+Couleurs :
+beige #E3D8C8
+anthracie #4C504B
+beige clair #F1EEE8
+
++ du noir et du blanc pour les polices d'écriture 
+
+Police décorative: Pacifico (https://fonts.google.com/specimen/Pacifico)
+Police de lecture: Radio canada (https://fonts.google.com/specimen/Radio+Canada?query=radio+canada)
+
+Le site et dans un style chaleureux avec beaucoup d'images pour contextualisé les pages (ex: des pizza dans des boite pour la livraison) 
