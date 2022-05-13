@@ -1,8 +1,11 @@
 #image{
-    height: 250px;
+    height: 550px;
     width: 100%;
 }
 
 label{
-    border: 1px solid grey;
+    border: 3px solid grey;
+}
+body{
+    background-color:blue;
 }
