@@ -1,5 +1,3 @@
-
-
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Radio+Canada:wght@300&display=swap');
 .navbar{
@@ -8,18 +6,20 @@
     border: solid 1px #4C504B;
     font-family: 'Pacifico', cursive;
     margin-bottom : 0px ;
+    color: white;
 }
 
 img{
     height: 50px;
 }
 body{
-    font-family: 'Radio Canada', sans-serif
+    font-family: 'Radio Canada',
 }
 
 .navbarperso{
     border: solid 3px black;
     border-radius: 15px;
+    
 }
 
 footer{

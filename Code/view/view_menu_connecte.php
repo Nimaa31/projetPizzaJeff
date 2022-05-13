@@ -10,38 +10,36 @@
 </head>
 <body>
     
-
 <header>
     <div class="navbar">
 <a href=""><img src="../asset/image/Untitled.png" alt="" ></a>
-<h1>Pizza Jeff</h1>
-    <ul class="navbarperso navbar justify-content-end me-5">
+<h1 >Pizza Jeff</h1>
+    <ul class="navbarperso navbar justify-content-end me-5 ">
         
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Acceuil</a>
+          <a class="nav-link active text-white " aria-current="page" href="#">Acceuil</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">La Carte</a>
+          <a class="nav-link text-white " href="#">La Carte</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Blog</a>
+          <a class="nav-link text-white " href="#">Blog</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link">Contact</a>
+            <a class="nav-link text-white " href="#">Contact</a>
           </li>
         <li class="nav-item">
-            <a class="nav-link" href="#">Réservation</a>
+            <a class="nav-link text-white " href="#">Réservation</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Panier</a>
+            <a class="nav-link text-white " href="#">Panier</a>
           </li>
         <li class="nav-item">
-          <a class="nav-link">Connexion</a>
+          <a class="nav-link text-white " href="#">Compte</a>
         </li>
       </ul>
     </div>
 </header>
-
 <footer>
     <ul><a href=""><img src="../asset/image/instagrame2.png"></a> </ul>
     <ul><a href=""><img src="../asset/image/facebook.png"></a> </ul>

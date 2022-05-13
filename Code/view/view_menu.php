@@ -1,11 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="../asset/style/style.css">
+    <title>Document</title>
+</head>
+<body>
+    
 <header>
-    <nav>
-        <li><a href=""></a> Accueil</li>
-        <li><a href=""></a> La Carte</li>
-        <li><a href=""></a> Blog</li>
-        <li><a href=""></a> Contact</li>
-        <li><a href=""></a> Réservation</li>
-        <li><a href=""></a> Panier</li>
-        <li><a href=""></a> Inscription</li>
-    </nav>
+    <div class="navbar">
+<a href=""><img src="../asset/image/Untitled.png" alt="" ></a>
+<h1 >Pizza Jeff</h1>
+    <ul class="navbarperso navbar justify-content-end me-5 ">
+        
+        <li class="nav-item">
+          <a class="nav-link active text-white " aria-current="page" href="#">Acceuil</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white " href="#">La Carte</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white " href="#">Blog</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-white " href="#">Contact</a>
+          </li>
+        <li class="nav-item">
+            <a class="nav-link text-white " href="#">Réservation</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white " href="#">Panier</a>
+          </li>
+        <li class="nav-item">
+          <a class="nav-link text-white " href="#">Inscription</a>
+        </li>
+      </ul>
+    </div>
 </header>
+<footer>
+    <ul><a href=""><img src="../asset/image/instagrame2.png"></a> </ul>
+    <ul><a href=""><img src="../asset/image/facebook.png"></a> </ul>
+    <ul><a href=""><img src="../asset/image/reddit2.png"></a> </ul>
+</footer>
+</body>
+</html>
