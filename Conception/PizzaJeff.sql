@@ -3,7 +3,7 @@ create database PizzaJeff;
 -- utilisation de la BDD --
 use PizzaJeff;
 -- création des entitées: --
-create table Produit(
+create table Produits(
 	id_prod int auto_increment not null primary key,
     nom_prod varchar(50),
     ingredient_prod varchar(50) null,
@@ -45,3 +45,68 @@ create table Reservations(
     date_reservation datetime,
     detail_reservation varchar(255) null
 )engine=InnoDB;
+
+create table Articles(
+	id_article int auto_increment not null primary key,
+    titre_article varchar(50),
+    contenu_article text,
+    img_article varchar(100) null
+)engine=InnoDB;
+
+create table Commentaires(
+	id_commentaires int auto_increment not null primary key,
+    auteur_commentaire varchar(20) not null,
+    contenu_commentaire text,
+    id_article int null
+)engine=InnoDB;
+
+-- création des table d'association --
+create table Contenir(
+	id_prod int,
+    id_ingredient int,
+    primary key(id_prod, id_ingredient)
+)engine=Innodb;
+
+create table Commander(
+	id_prod int,
+    id_commande int, 
+    qtx smallint,
+    primary key(id_commande, id_prod)
+)engine=InnoDB;
+
+-- contrainte et foreign key --
+alter table Ingredients
+add constraint Ingredients_fk_Produits
+foreign key(id_prod)
+references Produits(id_prod); 
+
+alter table Comptes
+add constraint Comptes_fk_Droits
+foreign key(id_droit)
+references Droits(id_droit);
+
+alter table Commentaires
+add constraint Comommentaires_fk_Articles
+foreign key(id_article)
+references Articles(id_article);
+
+alter table Commander
+add constraint Commander_fk_Produits
+foreign key(id_prod)
+references Produits(id_prod);
+
+alter table Commander
+add constraint Commander_fk_Commandes
+foreign key(id_commande)
+references Commandes(id_commande);
+
+alter table Contenir
+add constraint Contenir_fk_Ingredients
+foreign key(id_ingredient)
+references Ingredients(id_ingredient);
+
+alter table Contenir
+add constraint Contenir_fk_Produits
+foreign key(id_prod)
+references Produits(id_prod);
+
