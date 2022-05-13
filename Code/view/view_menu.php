@@ -1,11 +1,9 @@
-<header>
-    <nav>
-        <li><a href=""></a> Accueil</li>
-        <li><a href=""></a> La Carte</li>
-        <li><a href=""></a> Blog</li>
-        <li><a href=""></a> Contact</li>
-        <li><a href=""></a> Réservation</li>
-        <li><a href=""></a> Panier</li>
-        <li><a href=""></a> Inscription</li>
-    </nav>
-</header>
+
+
+ <div class="card" style="width: 18rem;">
+  <img src="../asset/image/Pizza 1.jpeg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Menu Solo</h5>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>

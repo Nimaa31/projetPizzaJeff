@@ -1,6 +1,6 @@
 Couleurs :
 beige #E3D8C8
-anthracie #4C504B
+anthracite #4C504B
 beige clair #F1EEE8
 
 + du noir et du blanc pour les polices d'écriture 
