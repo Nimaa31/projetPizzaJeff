@@ -22,7 +22,7 @@
           </p>
       </article>
 
-      <div id="carouselExampleControls" class="carousel slide w-25" data-bs-ride="carousel">
+      <div id="carouselExampleControls" class="carousel slide w-25 m-3" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img src="../asset/image/Pizza 1.jpeg" class="d-block w-100" alt="...">
