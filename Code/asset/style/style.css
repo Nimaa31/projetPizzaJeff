@@ -8,6 +8,7 @@
     border: solid 1px #4C504B;
     font-family: 'Pacifico', cursive;
     margin-bottom : 0px ;
+    color: white;
 }
 
 img{
@@ -20,6 +21,7 @@ body{
 .navbarperso{
     border: solid 3px black;
     border-radius: 15px;
+    
 }
 
 footer{
