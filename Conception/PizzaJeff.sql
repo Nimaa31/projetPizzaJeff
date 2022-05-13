@@ -21,16 +21,12 @@ create table Ingredients(
 
 create table Pates(
 	id_pate int auto_increment not null primary key,
-    petite_pate tinyint,
-    moyenne_pate tinyint,
-    grande_pate tinyint
+    nom_pates varchar (15)
 )engine=InnoDB;
     
 create table Tailles(
 	id_taille int auto_increment not null primary key,
-    petite_taille tinyint,
-    moyenne_taille tinyint,
-    grande_taille tinyint
+	nom_taille varchar(15)
 )engine=InnoDB;
 
 create table Commandes(
