@@ -1,0 +1,38 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Radio+Canada:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body{
+    background-color: #E3D8C8;
+}
+
+h5{
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    vertical-align: middle;
+    color: #FFFFFF;
+    font-size: 2em;
+}
+
+.card-body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.card{
+    background-color: #4C504B;
+    width: 250px;
+    height: 360px;
+    margin: 20px 20px 20px 20px;
+    border: none;
+}
+
+.container-card{
+    margin: 50px auto 50px auto;
+    border: 3px solid #4C504B;
+    width: 80vw;
+    height: 60vh;
+}
