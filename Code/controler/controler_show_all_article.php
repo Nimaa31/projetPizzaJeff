@@ -3,9 +3,13 @@
                 IMPORTS
     -----------------------------------*/
     //import de la BDD 
-    include 'location: /util/connectBDD.php';
+    include './utils/connectBDD.php';
     //import du model
-    include 'location: /model/model_article';
+    include './model/model_article.php';
     //import de la vue 
-    include 'location: /view/view_show_all_article.php'
+    include './view/view_show_all_article.php';
+    //import de la vue du menu
+    include './view/view_menu_connecte.php';
+    //import du footer 
+    include './view/view_footer.html';
 ?>

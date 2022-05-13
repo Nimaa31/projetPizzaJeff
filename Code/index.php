@@ -11,6 +11,10 @@
     //test de la valeur $path dans l'URL et import de la ressource
     switch($path){
         //route /code/ajouter_un_article -> ./controler/controler_add_article.php
+        case $path === "/code/accueil" : 
+            include './controler/controler_accueil.php';
+                break ;
+        //route /code/ajouter_un_article -> ./controler/controler_add_article.php
         case $path === "/code/ajouter_un_article" : 
             include './controler/controler_add_article.php';
                 break ;
@@ -36,7 +40,7 @@
                 break ;
         //route /code/afficher_les_articles -> ./controler/controler_show_all_article.php
         case $path === "/code/afficher_les_articles" : 
-            include './controler/controler_shaw_all_article.php';
+            include './controler/controler_show_all_article.php';
                 break ;
         //route en cas d'erreur
         case $path === "/code/erreur" : 
