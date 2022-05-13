@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Radio+Canada:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body{
+    background-color: #E3D8C8;
+    font-family: 'Radio Canada', sans-serif;
+}
+#chef{
+    max-width: 200px;
+    float: left;
+    margin: 10px;
+}
+
+#banniere{
+    width: 100%;
+}
+
+#discour{
+    width: 70%;
+}
+
+.enluminure{
+    font-family: 'Pacifico', cursive;
+    font-size: 1.3em;
+}
+
+.carousel{
+    border: 2px solid #4C504B;
+}
+
+.contenu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 10vh;
+}

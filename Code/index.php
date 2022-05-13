@@ -31,7 +31,7 @@
             include './controler/controler_delete_article.php';
                 break ;
         //route /code/modiifer_article -> ./controler/controler_modify_article.php
-        case $path === "/code/modiifer_article" : 
+        case $path === "/code/modifier_article" : 
             include './controler/controler_modify_article.php';
                 break ;
         //route /code/afficher_les_articles -> ./controler/controler_show_all_article.php
