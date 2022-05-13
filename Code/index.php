@@ -24,7 +24,7 @@
                 break ;
         //route /code/deconnection -> ./controler/controler_deconnexion.php
         case $path === "/code/deconnection" : 
-            include './controler/controler_deconnecxion.php';
+            include './controler/controler_deconnexion.php';
                 break ;
         //route /code/supprimer_article -> ./controler/controler_delete_article.php
         case $path === "/code/supprimer_article" : 
