@@ -15,7 +15,7 @@
 }
 body{
     font-family: 'Radio Canada';
-    height: 100%;
+    height: 100vh;
 }
 
 .navbarperso{
@@ -28,10 +28,7 @@ footer{
     padding-top: 20px;
     display: flex;
     justify-content: center;
-    position: absolute;
-    bottom: 0px;
     width: 100%;
     background-color: #4C504B;
     color: white;
-
 }
