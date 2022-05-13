@@ -10,10 +10,9 @@
 </head>
 <body>
     
-
 <header>
     <div class="navbar">
-<a href=""><img src="../asset/image/Untitled.png" alt="" ></a>
+<a href=""><img src="../asset/image/Untitled.png" alt="" id="logo"></a>
 <h1 >Pizza Jeff</h1>
     <ul class="navbarperso navbar justify-content-end me-5 ">
         
@@ -27,7 +26,7 @@
           <a class="nav-link text-white " href="#">Blog</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link text-white ">Contact</a>
+            <a class="nav-link text-white " href="#">Contact</a>
           </li>
         <li class="nav-item">
             <a class="nav-link text-white " href="#">Réservation</a>
