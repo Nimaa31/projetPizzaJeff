@@ -35,15 +35,8 @@
             <a class="nav-link text-white " href="#">Panier</a>
           </li>
         <li class="nav-item">
-          <a class="nav-link text-white " href="#">Compte</a>
+          <a class="nav-link text-white ">Connexion</a>
         </li>
       </ul>
     </div>
 </header>
-<footer>
-    <ul><a href=""><img src="../asset/image/instagrame2.png"></a> </ul>
-    <ul><a href=""><img src="../asset/image/facebook.png"></a> </ul>
-    <ul><a href=""><img src="../asset/image/reddit2.png"></a> </ul>
-</footer>
-</body>
-</html>
