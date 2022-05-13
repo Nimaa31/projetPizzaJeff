@@ -1,8 +1,5 @@
 
-<?php
-include 'view_menu_connecte.php';
-include 'view_footer.html';
-?> 
+
  <div class="card" style="width: 18rem;">
   <img src="../asset/image/Pizza 1.jpeg" class="card-img-top" alt="...">
   <div class="card-body">
