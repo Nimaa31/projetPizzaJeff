@@ -12,7 +12,7 @@
     
 <header>
     <div class="navbar">
-<a href=""><img src="../asset/image/Untitled.png" alt="" ></a>
+<a href=""><img src="../asset/image/Untitled.png" alt="" id="logo"></a>
 <h1 >Pizza Jeff</h1>
     <ul class="navbarperso navbar justify-content-end me-5 ">
         
