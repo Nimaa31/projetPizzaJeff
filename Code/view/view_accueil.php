@@ -22,30 +22,30 @@
           </p>
       </article>
 
-      <div id="carouselExampleControls" class="carousel slide w-25 m-3" data-bs-ride="carousel">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" >
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" ></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+<div class="container" style="max-width:500px">
+    <div id="carouselExample" class="carousel vert slide" data-ride="carousel" data-interval="3000">
         <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="../asset/image/Pizza 1.jpeg" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="../asset/image/Pizza 2.jpg" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="../asset/image/pizza 3.jpg" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="../asset/image/pizza 4.jpg" class="d-block w-100" alt="...">
-          </div>
+            <div class="carousel-item active">
+                <img class="d-block mx-auto img-fluid" src="../asset/image/Pizzacarr1.jpg" alt="First slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block mx-auto img-fluid" src="../asset/image/Pizzacarr2.jpg" alt="Second slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block mx-auto img-fluid" src="../asset/image/Pizzacarr3.jpg" alt="Third slide">
+            </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
+        <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
+        </a>
+        <a class="carousel-control-next" href="#carouselExample" role="button" data-slide="next">  
+        </a>
+    </div>
+</div>
     </section>
 
 
