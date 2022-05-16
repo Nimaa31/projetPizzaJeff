@@ -67,3 +67,17 @@ h5{
     width: 100px;
 }
 
+.catalogue-buttons{
+    float: left;
+    margin: 12px 200px 10px;
+}
+.catalogue-button{
+    font-family: 'Pacifico';
+    font-size: large;
+    text-decoration: #000000;
+    border: none;
+    margin-left: 15px;
+    width: 200px;
+    background-color: #E3D8C8;
+}
+

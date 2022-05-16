@@ -16,12 +16,12 @@
         <button name="dessert" class="catalogue-button">Nos desserts</button>
         </form>
     </div>
-    <div class="container-card">
+    <!-- <div class="container-card">
         <div class="card">
             <div class="card-title">
                 <div class="card-body"></div>
             </div>
         </div>
-    </div>
+    </div> -->
 </body>
 </html>
