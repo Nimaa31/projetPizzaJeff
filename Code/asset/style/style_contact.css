@@ -19,7 +19,7 @@ body {
     height: 450px;
     width: 450px;
     grid-column-start: 3;
-
+    border: 3px solid #4C504B;
 }
 
 .h30{
@@ -67,10 +67,16 @@ form{
     color: lightgrey;
     border-radius: 15px;
     text-shadow: 3px 1px 2px rgba(0,0,0);
+    margin-top: 10px;
 }
 
 input{
     border: 3px solid #4C504B;
     background-color:lightgrey;
     margin: 10px;
+}
+
+#texte{
+    background-color:lightgrey;
+    border: 3px solid #4C504B;
 }
