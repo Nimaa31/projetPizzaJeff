@@ -46,6 +46,9 @@
         case $path === "/code/blog" : 
             include './controler/controler_show_all_article.php';
                 break ;
+        case $path === "/code/afficher_les_produits" : 
+            include './controler/controler_show_all_produit.php';
+                break ;
         //route en cas d'erreur
         case $path === "/code/erreur" : 
             include './controler/error.php';
