@@ -6,7 +6,7 @@
     include './utils/connectBdd.php';
     //import du model
 
-
+    
     //import de la vue du menu
     include './view/view_menu_connecte.php';
 
