@@ -1,10 +1,8 @@
-console.log("Hello girl");
-let card = document.body.querySelector(".card");
+// console.log("Hello girl");
+// let card = document.body.querySelector(".card");
 
-let cardVerso = '<img src="./asset/image/Pizza 1.jpeg" class="card-img-top" alt="..."><div class="card-body"><h5 class="card-title">Pinard</h5></div>'
-let cardRecto = '<div class="card" style="width: 12rem;"><h5>Ingredient :</h5><p>Salade, tomate, oignons</p><div class="card-body"><h5>Prix : 12.50</h5></div></div>'
-
-console.log(card);
+// let cardVerso = '<img src="./asset/image/Pizza 1.jpeg" class="card-img-top" alt="..."><div class="card-body"><h5 class="card-title">Pinard</h5></div>'
+// let cardRecto = '<div class="card" style="width: 12rem;"><h5>Ingredient :</h5><p>Salade, tomate, oignons</p><div class="card-body"><h5>Prix : 12.50</h5></div></div>'
 
 function switchCard(card, cardVerso, cardRecto){
 
@@ -26,4 +24,4 @@ function switchCard(card, cardVerso, cardRecto){
     })
 }
 
-switchCard(card, cardVerso, cardRecto);
+// switchCard(card, cardVerso, cardRecto);
