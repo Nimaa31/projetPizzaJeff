@@ -10,7 +10,7 @@ h5{
     font-family: 'Pacifico', cursive;
     text-align: center;
     vertical-align: middle;
-    color: #000000;
+    color: #FFFFFF;
     font-size: 2em;
 }
 
@@ -30,7 +30,9 @@ h5{
     width: 250px;
     height: 360px;
     margin: 20px 20px 20px 20px;
+    padding: 10px;
     border: none;
+    color:#FFFFFF;
 }
 
 .card-detail{
@@ -48,10 +50,18 @@ h5{
 }
 
 .container-card{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
     margin: 50px auto 50px auto;
     border: 3px solid #4C504B;
     width: 80vw;
-    height: 60vh;
+    height: 70vh;
+    overflow: scroll;
+}
+
+.container-card::-webkit-scrollbar {
+    display: none;
 }
 
 .submit-button{

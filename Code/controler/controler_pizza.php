@@ -9,7 +9,7 @@
 
     foreach($pizzas as $value){
         
-        $card = '<div class=\'card\' id=\'card'.$value->id_prod.'\'style=vmax-width: 12rem;\'><img src=\''.$value->image_prod.'\' class=\'card-img-top\' alt=\'...\'><div class=\'card-body\'><h5 class=\'card-title\'>'.$value->nom_prod.'</h5></div></div>';
+        $card = '<div class=\'card\' id=\'card'.$value->id_prod.'\'style=max-width: 12rem;\'><img src=\''.$value->image_prod.'\' class=\'card-img-top\' alt=\'...\'><div class=\'card-body\'><h5 class=\'card-title\'>'.$value->nom_prod.'</h5></div></div>';
         echo $card;
 
         $cardVerso = '<img src=\''.$value->image_prod.'\' class=\'card-img-top\' alt=\'...\'><div class=\'card-body\'><h5 class=\'card-title\'>'.$value->nom_prod.'</h5></div>';

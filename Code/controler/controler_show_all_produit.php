@@ -13,8 +13,7 @@
     //import de model
     include './model/model_produit.php';
 
-    //import du footer 
-    // include '../view/view_footer.html';
+
 
     if(isset($_POST['menu'])){
         include './controler/controler_menu.php';
@@ -31,7 +30,8 @@
     }
     
     
-
+    // import du footer 
+    include './view/view_footer.php';
 
 
 ?>
