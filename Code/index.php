@@ -34,12 +34,16 @@
         case $path === "/code/supprimer_article" : 
             include './controler/controler_delete_article.php';
                 break ;
-        //route /code/modiifer_article -> ./controler/controler_modify_article.php
+        //route /code/modifier_article -> ./controler/controler_modify_article.php
         case $path === "/code/modifier_article" : 
             include './controler/controler_modify_article.php';
                 break ;
-        //route /code/afficher_les_articles -> ./controler/controler_show_all_article.php
-        case $path === "/code/afficher_les_articles" : 
+        //route /code/menu -> ./controler/controler_catalogue.php
+        case $path === "/code/menu" : 
+            include './controler/controler_catalogue.php';
+                break ;
+        //route /code/blog -> ./controler/controler_show_all_article.php
+        case $path === "/code/blog" : 
             include './controler/controler_show_all_article.php';
                 break ;
         case $path === "/code/afficher_les_produits" : 
