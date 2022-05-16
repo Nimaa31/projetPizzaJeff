@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Radio+Canada:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+
+body {
+background-color: #E3D8C8;
+}
+
+h5 {
+    font-family: pacifico;
+}
+
+p {
+    font-family: radio Canada;
+    font-weight: bold;
+}
+
+#global {
+    display: flex;
+    justify-content: space-around;
+}
+
+#article {
+    background-color: #f1eee8;
+}
