@@ -9,6 +9,7 @@ create table Produits(
     ingredient_prod varchar(50) null,
     prix_prod decimal(15.2),
     cat_prod varchar(50) null,
+    image_prod varchar(100) null,
     id_pate int null,
     id_taille int null
 )engine=innodb;
