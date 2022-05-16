@@ -1,34 +1,29 @@
-// console.log("Hello girl");
-// let hautCard = document.querySelector(".click-card");
-// let basCard = document.querySelector(".card-body")
+console.log("Hello girl");
+let card = document.body.querySelector(".card");
 
-// let cardVersoHaut = '<img src="Images/Boisson 5.jpg" class="card-img-top" alt="...">'
-// let cardVersoBas = '<h5 class="card-title">Pinard</h5>'
-// let cardRectoHaut = '<h5>Ingredient :</h5><p>Salade, tomate, oignons</p>'
-// let cardRectoBas = '<form action=""><select name="taille" id="taille-pizza" class="dropdown"><option value="16">16 cm</option><option value="24">24 cm</option><option value="32">32 cm</option></select></br><select name="pate" id="pate-pizza" class="dropdown"><option value="fine">Fine</option><option value="moyenne">Moyenne</option><option value="epaisse">Epaisse</option></select><button type="submit" class="submit-button">Ajouter au panier</button></form>'
+let cardVerso = '<img src="./asset/image/Pizza 1.jpeg" class="card-img-top" alt="..."><div class="card-body"><h5 class="card-title">Pinard</h5></div>'
+let cardRecto = '<div class="card" style="width: 12rem;"><h5>Ingredient :</h5><p>Salade, tomate, oignons</p><div class="card-body"><h5>Prix : 12.50</h5></div></div>'
 
+console.log(card);
 
-function switchCard(cardH, cardB, cardversoH, cardversoB, cardrectoH, cardrectoB){
+function switchCard(card, cardVerso, cardRecto){
 
-    let contenuCardHaut = '';
-    let contenuCardBas = '';
+    let contenuCard = '';
     let statusCard = false;
 
-    cardH.addEventListener('click', function(){
+    card.addEventListener('click', function(){
         console.log("clique")
         if(statusCard == false){
-            contenuCardHaut= cardrectoH;
-            contenuCardBas = cardrectoB;
-            cardH.innerHTML=contenuCardHaut;
-            cardB.innerHTML=contenuCardBas;
+            contenuCard= cardRecto;
+            card.innerHTML=contenuCard;
             statusCard = true
         }else if(statusCard == true){
-            contenuCardHaut = cardversoH;
-            contenuCardBas = cardversoB;
-            cardH.innerHTML = contenuCardHaut;
-            cardB.innerHTML = contenuCardBas;
+            contenuCard = cardVerso;
+            card.innerHTML = contenuCard;
             statusCard = false
         }
         
     })
 }
+
+switchCard(card, cardVerso, cardRecto);
