@@ -15,9 +15,9 @@ INSERT INTO `pizzajeff`.`produits` (`nom_prod`, `ingredient_prod`, `cat_prod`, `
 INSERT INTO `pizzajeff`.`produits` (`nom_prod`, `ingredient_prod`, `cat_prod`, `image_prod`) VALUES ('Montagnarde', 'Oignon, Fromage à Raclette, Pomme de Terre', 'Pizza', './asset/image/Pizza 1.jpeg');
 INSERT INTO `pizzajeff`.`produits` (`nom_prod`, `ingredient_prod`, `cat_prod`, `image_prod`) VALUES ('Norvégienne', 'Crème, Saumon Gravlax, Aneth', 'Pizza', './asset/image/Pizza 3.jpg');
 INSERT INTO `pizzajeff`.`produits` (`nom_prod`, `ingredient_prod`, `cat_prod`, `image_prod`) VALUES ('Pizza Suchi', 'Tomate, Sushi', 'Pizza', './asset/image/Pizza 4.jpgg');
-INSERT INTO `pizzajeff`.`produits` (`nom_prod`, `ingredient_prod`, `cat_prod`, `image_prod`) VALUES ('C\'estCHO', 'Tomate, Piment, Poivre, Tabasco, Harissa', 'Pizza', './asset/image/Pizza 3.jpg');
+INSERT INTO `pizzajeff`.`produits` (`nom_prod`, `ingredient_prod`, `cat_prod`, `image_prod`) VALUES ('C estCHO', 'Tomate, Piment, Poivre, Tabasco, Harissa', 'Pizza', './asset/image/Pizza 3.jpg');
 INSERT INTO `pizzajeff`.`produits` (`nom_prod`, `cat_prod`, `image_prod`) VALUES ('Bruschetta', 'Entrées', './asset/image/Sauce 1.jpg');
-INSERT INTO `pizzajeff`.`produits` (`nom_prod`, `cat_prod`, `image_prod`) VALUES ('Pain à l\'Ail', 'Entrées', './asset/image/Sauce 3.jpg');
+INSERT INTO `pizzajeff`.`produits` (`nom_prod`, `cat_prod`, `image_prod`) VALUES ('Pain à l Ail', 'Entrées', './asset/image/Sauce 3.jpg');
 INSERT INTO `pizzajeff`.`produits` (`nom_prod`, `cat_prod`, `image_prod`) VALUES ('Nuggets', 'Entrées', './asset/image/Sauce 2.jpg');
 INSERT INTO `pizzajeff`.`produits` (`nom_prod`, `cat_prod`, `image_prod`) VALUES ('Potatoes', 'Entrées', './asset/image/Sauce 3.jpg');
 INSERT INTO `pizzajeff`.`produits` (`nom_prod`, `cat_prod`, `image_prod`) VALUES ('Salade', 'Entrées', './asset/image/Sauce 4.jpg');

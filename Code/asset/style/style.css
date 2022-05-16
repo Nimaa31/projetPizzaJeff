@@ -17,7 +17,7 @@
 body{
     font-family: 'Radio Canada';
     height: 100vh;
-    background-color: red ;
+    background-color: #E3D8C8 ;
 }
 
 .navbarperso{
@@ -39,9 +39,6 @@ footer{
 
 
 }
-<<<<<<< HEAD
-
-=======
 .vert .carousel-item-next.carousel-item-left,
 .vert .carousel-item-prev.carousel-item-right {
     -webkit-transform: translate3d(0, 0, 0);
@@ -66,4 +63,3 @@ footer{
     z-index: 5;
     display: inline-block;
     }   
->>>>>>> 86497b11d5a9b4fb6341ef002f6f619a9c01eabe
