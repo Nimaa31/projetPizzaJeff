@@ -5,16 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="../asset/style/styleAccueil.css">
+    <link rel="stylesheet" href="./asset/style/styleAccueil.css">
     <title>Document</title>
 </head>
 <body>
-    <img id="banniere" src="../asset/image/Banniere-crop.jpg" alt="pizza au feu de bois">
+    <img id="banniere" src="./asset/image/Banniere-crop.jpg" alt="pizza au feu de bois">
 
     <section class="contenu">
       <article id="discour">
           <p>
-              <img id="chef" src="../asset/image/Chef-crop.jpg" alt="photo d'un chef">
+              <img id="chef" src="./asset/image/Chef-crop.jpg" alt="photo d'un chef">
               <span class="enluminure">L</span>orem ipsum dolor sit amet consectetur adipisicing elit. Numquam totam vel quas quaerat et quos recusandae laborum cupiditate, debitis dignissimos maiores sed repellendus possimus minima odit nam officiis consequatur. Vero, ad porro ducimus id voluptates totam rem at consequuntur, quisquam, consectetur maxime distinctio ullam odit magnam reiciendis mollitia? Distinctio, totam odio voluptatibus maxime alias neque cupiditate, et blanditiis atque nisi libero delectus quasi accusamus, ipsa fugit laudantium. Quos inventore explicabo tempora, minus itaque deserunt temporibus repudiandae quis nemo illum ea quod fugiat. Vero cupiditate deleniti ipsam, assumenda corporis alias fugit nemo harum culpa qui impedit repellendus laborum perspiciatis ad distinctio autem maiores unde nisi! Obcaecati rerum est aliquid quo, incidunt nobis omnis dolor nemo quidem labore reiciendis fuga aperiam deserunt illo in laudantium sed eaque cupiditate, cum aut iure esse suscipit? Sequi voluptatum dignissimos quo ipsam quaerat debitis rem molestias delectus consequatur esse? Vitae, autem asperiores aspernatur ducimus harum cupiditate et natus dolor consequuntur! Aperiam natus dolore quasi dolorem dolorum quisquam! Minus amet dolore, ut quod temporibus modi reprehenderit necessitatibus est accusantium, rem natus illum! Rerum numquam officiis saepe esse nobis, cum accusantium corporis beatae voluptatibus modi labore voluptates vitae consequatur quibusdam laudantium omnis repudiandae, soluta ipsa aspernatur enim. Et.
           </p>
           <p>
@@ -22,34 +22,34 @@
           </p>
       </article>
 
-      <div id="carouselExampleControls" class="carousel slide w-25 m-3" data-bs-ride="carousel">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" >
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" ></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+<div class="container" style="max-width:500px">
+    <div id="carouselExample" class="carousel vert slide" data-ride="carousel" data-interval="3000">
         <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="../asset/image/Pizza 1.jpeg" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="../asset/image/Pizza 2.jpg" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="../asset/image/pizza 3.jpg" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="../asset/image/pizza 4.jpg" class="d-block w-100" alt="...">
-          </div>
+            <div class="carousel-item active">
+                <img class="d-block mx-auto img-fluid" src="../asset/image/Pizzacarr1.jpg" alt="First slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block mx-auto img-fluid" src="../asset/image/Pizzacarr2.jpg" alt="Second slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block mx-auto img-fluid" src="../asset/image/Pizzacarr3.jpg" alt="Third slide">
+            </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
+        <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
+        </a>
+        <a class="carousel-control-next" href="#carouselExample" role="button" data-slide="next">  
+        </a>
+    </div>
+</div>
     </section>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-    <script src="..\asset\script\accueilScript.js"></script>
+    <script src=".\asset\script\accueilScript.js"></script>
 </body>
 </html>
