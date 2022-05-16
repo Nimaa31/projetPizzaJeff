@@ -9,11 +9,12 @@
     //import de la vue du menu
     include './view/view_menu_connecte.php';
 
-    //import de la vue 
-    include './view/view_card.html';
-
+    //import de model
+    include '../model/model_produit.php';
+    
     //import du footer 
     include './view/view_footer.html';
 
-    include './controler/controler_pizza.php'
+
+
 ?>
