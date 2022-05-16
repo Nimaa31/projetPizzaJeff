@@ -7,13 +7,12 @@
     //import du model
 
     //import de la vue du menu
-    include './view/view_menu_connecte.php';
+    include './view/view_menu_connecte.html';
 
-    //import de la vue 
-    include './view/view_card.html';
+    include './controler/controler_pizza.php';
 
     //import du footer 
-    include './view/view_footer.html';
+    include './view/view_footer.php';
 
-    include './controler/controler_pizza.php'
+
 ?>
