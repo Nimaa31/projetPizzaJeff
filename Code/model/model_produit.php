@@ -46,11 +46,11 @@
             $this -> cat_prod = $cat;
         }
         // Méthodes
-        public function showProduitByCat($bdd, $cat):array{
+        public function showProduitByCat($bdd):array{
             try{
-                $req = $bdd->prepare('SELECT * FROM (produit) WHERE (cat_prod = $cat)');
+                $req = $bdd->prepare('SELECT * FROM (produits) WHERE (cat_prod = :cat)');
                 $req->execute(array(
-                    'cat_prod' => $this -> getCatProd(),
+                    ':cat' => $this -> getCatProd(),
                 ));
                 $data = $req -> fetchAll(PDO::FETCH_OBJ);
                 return $data;
