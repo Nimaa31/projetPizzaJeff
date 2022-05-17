@@ -4,11 +4,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="../asset/style/style_compte.css">
+    <link rel="stylesheet" href="./asset/style/style_compte.css">
     <title>Document</title>
 </head>
 
-<img  src="../asset/image/Banniere-crop.jpg" id="banniere" >
+<img  src="./asset/image/Banniere-crop.jpg" id="banniere" >
 <div class="container">
     <form action="" method="post" class="container">
     <h3 class="h30">Compte</h3>
@@ -35,5 +35,5 @@
         
 
 </form>
-<img src="../asset/image/pizza-carré2.jpg" id="pizzacompte">
+<img src="./asset/image/pizza-carré2.jpg" id="pizzacompte">
 </div>
