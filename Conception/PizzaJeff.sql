@@ -7,7 +7,7 @@ create table Produits(
 	id_prod int auto_increment not null primary key,
     nom_prod varchar(50),
     ingredient_prod varchar(50) null,
-    prix_prod varchar(10),
+    prix_prod float,
     cat_prod varchar(50) null,
     image_prod varchar(100) null,
     id_pate int null,
