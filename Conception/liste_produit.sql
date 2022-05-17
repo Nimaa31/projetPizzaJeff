@@ -26,3 +26,4 @@ INSERT INTO `pizzajeff`.`produits` (`nom_prod`, `cat_prod`, `image_prod`) VALUES
 INSERT INTO `pizzajeff`.`produits` (`nom_prod`, `cat_prod`, `image_prod`) VALUES ('Cookie', 'Dessert', './asset/image/Dessert 3.jpg');
 INSERT INTO `pizzajeff`.`produits` (`nom_prod`, `cat_prod`, `image_prod`) VALUES ('Muffin', 'Dessert', './asset/image/Dessert 02.webp');
 INSERT INTO `pizzajeff`.`produits` (`nom_prod`, `cat_prod`, `image_prod`) VALUES ('Donuts', 'Dessert', './asset/image/Dessert 3.jpg');
+INSERT INTO `pizzajeff`.`produits` (`nom_prod`, `ingredient_prod`, `cat_prod`, `image_prod`) VALUES ('Pizza CUSTOM', 'Appelez nous pour customiser votre pizza', 'Pizza', './asset/image/Pizzacarr1.jpg');
